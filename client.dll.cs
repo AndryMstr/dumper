@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-08 07:10:44.298916800 UTC
+// 2024-04-17 03:37:09.285999600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -2591,7 +2591,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_y = 0xF60; // float32
             public const nint m_z = 0xF64; // float32
             public const nint m_angle = 0xF68; // float32
-            public const nint m_errorHistory = 0xF6C; // float32[20]
+            public const nint m_errorHistory = 0xF6C; // 
             public const nint m_errorHistoryIndex = 0xFBC; // int32
             public const nint m_errorHistoryCount = 0xFC0; // int32
             public const nint m_averageError = 0xFC4; // float32
