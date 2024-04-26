@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-26 04:15:57.943456300 UTC
+// 2024-04-26 16:42:28.864471400 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
@@ -24,7 +24,6 @@ namespace CS2Dumper.Offsets {
     }
     // Module: engine2.dll
     public static class Engine2Dll {
-        public const nint dwBuildNumber = 0x516574;
         public const nint dwNetworkGameClient = 0x515AC8;
         public const nint dwNetworkGameClient_deltaTick = 0x258;
         public const nint dwNetworkGameClient_getLocalPlayer = 0xF0;
