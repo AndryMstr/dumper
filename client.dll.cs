@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-26 16:42:28.864471400 UTC
+// 2024-04-30 22:55:26.653882700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -2058,8 +2058,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_bClipHitStaticWorld = 0x12F4; // bool
             public const nint m_bCachedPlaneIsValid = 0x12F5; // bool
             public const nint m_pClippingWeapon = 0x12F8; // C_CSWeaponBase*
-            public const nint m_previousPlayerState = 0x1300; // CSPlayerState
-            public const nint m_iPlayerState = 0x1304; // CSPlayerState
+            public const nint m_previousPlayerState = 0x1300; // 
+            public const nint m_iPlayerState = 0x1304; // 
             public const nint m_bIsRescuing = 0x1308; // bool
             public const nint m_fImmuneToGunGameDamageTime = 0x130C; // GameTime_t
             public const nint m_fImmuneToGunGameDamageTimeLast = 0x1310; // GameTime_t
@@ -3221,7 +3221,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_nFallbackStatTrak (int)
         public static class C_EconEntity {
             public const nint m_flFlexDelayTime = 0x1080; // float32
-            public const nint m_flFlexDelayedWeight = 0x1088; // 
+            public const nint m_flFlexDelayedWeight = 0x1088; // float32*
             public const nint m_bAttributesInitialized = 0x1090; // bool
             public const nint m_AttributeManager = 0x1098; // C_AttributeContainer
             public const nint m_OriginalOwnerXuidLow = 0x1540; // uint32
@@ -5396,8 +5396,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_hCurrentThirdPersonSequence = 0x1668; // HSequence
             public const nint m_nSilencerBoneIndex = 0x166C; // int32
             public const nint m_thirdPersonSequences = 0x1670; // HSequence[7]
-            public const nint m_ClientPreviousWeaponState = 0x16A8; // CSWeaponState_t
-            public const nint m_iState = 0x16AC; // CSWeaponState_t
+            public const nint m_ClientPreviousWeaponState = 0x16A8; // 
+            public const nint m_iState = 0x16AC; // 
             public const nint m_flCrosshairDistance = 0x16B0; // float32
             public const nint m_iAmmoLastCheck = 0x16B4; // int32
             public const nint m_iAlpha = 0x16B8; // int32
